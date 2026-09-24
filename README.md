@@ -12,19 +12,6 @@ CBI-MedSAM 是一个基于 [Segment Anything Model（SAM）](https://github.com/
 
 研究评估范围包括息肉分割、皮肤病变分割、跨数据集内镜迁移，以及四模态 BraTS2023 脑肿瘤分割。BraTS 适配以二维切片训练和推理，并将切片级 WT、TC、ET 预测重新组装为三维体积。
 
-## 精简发布内容
-
-本目录是从完整实验工程整理出的轻量发布版，包含：
-
-- CBI-MedSAM 核心模型和 SAM 依赖代码；
-- 数据加载、分布式支持和分割评价代码；
-- sessile-Kvasir 单卡训练脚本；
-- sessile-Kvasir 同域测试脚本；
-- 从 sessile-Kvasir 到 CVC 的跨数据集测试脚本；
-- Conda 环境文件。
-
-为减小仓库体积，本版本不包含数据集、`work_dir`、SAM 权重、训练检查点、生成的预测图、IDE 配置、缓存文件及重复的实验脚本。皮肤病变和 BraTS2023 的数据适配与完整实验配置应按对应实验协议另行接入。
-
 ## 目录结构
 
 ```text
