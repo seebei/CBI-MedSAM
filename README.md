@@ -167,14 +167,6 @@ This lightweight release provides:
 - In-domain evaluation on sessile-Kvasir
 - Cross-dataset evaluation on CVC
 
-The following files are **not included** in the repository:
-
-- Medical image datasets
-- Pretrained SAM checkpoints
-- Task-specific trained CBI-MedSAM checkpoints
-
-These resources should be downloaded or generated separately according to the instructions above.
-
 ## Acknowledgements
 
 This project builds upon Meta AI's [Segment Anything](https://github.com/facebookresearch/segment-anything) and the I-MedSAM framework.
